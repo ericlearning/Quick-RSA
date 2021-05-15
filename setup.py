@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='quickrsa',
-    version='0.0.3',
+    version='0.0.4',
     description='A concise implementation of a textbook version RSA.',
     url='https://github.com/ericlearning/Quick-RSA',
     author='ericlearning',
