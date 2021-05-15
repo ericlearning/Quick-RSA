@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from textbook_rsa import generate, encdec
+from quickrsa import generate, encdec
 
 parser = ArgumentParser()
 parser.add_argument('-l', '--max-len', type=int, default=128, help='maximum message length')

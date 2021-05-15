@@ -4,10 +4,10 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(
-    name='ufo',
+    name='quickrsa',
     version='0.0.1',
     description='A concise implementation of a textbook version RSA.',
-    url='https://github.com/ericlearning/Textbook-RSA',
+    url='https://github.com/ericlearning/Quick-RSA',
     author='ericlearning',
     packages=find_packages(),
     classifiers=[
