@@ -21,9 +21,9 @@ def generate_e(phi):
 		if gcd == 1:
 			return candidate, s
 
-def generate_public_key(max_len=128):
+def generate_keys(max_len=128):
     p, q = generate_p_and_q(max_len)
     n = p * q
     phi = totient_for_prime_product(p, q)
     e, d = generate_e(phi)
-    return {'e': e, 'n': n}
+    return (e, n), d
